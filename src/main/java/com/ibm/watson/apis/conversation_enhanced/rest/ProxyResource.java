@@ -116,6 +116,7 @@ public class ProxyResource {
     if (URL != null) {
       service.setEndPoint(URL);
     }
+    
 
     // Use the previously configured service object to make a call to the conversational service
     MessageResponse response = service.message(id, request).execute();
